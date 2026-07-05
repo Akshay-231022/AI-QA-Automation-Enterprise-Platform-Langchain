@@ -175,3 +175,168 @@ This single repo gives you fluent, concrete answers for:
 **AI engineering and QA automation aren't two different careers — they're the same skill, applied to the same problems.**
 
 </div>
+
+
+---
+
+## 🏗️ Final Project Structure
+
+
+
+```
+AI-QA-Automation/
+│
+├── app.py
+├── requirements.txt
+├── .env
+│
+├── data/
+│      requirement.pdf
+│
+├── uploads/
+│
+├── vector_db/
+│
+├── prompts/
+│      test_case_prompt.py
+│      bug_prompt.py
+│
+├── loaders/
+│      pdf_loader.py
+│      docx_loader.py
+│
+├── rag/
+│      embeddings.py
+│      vector_store.py
+│      retriever.py
+│
+├── agents/
+│      planner.py
+│      ui_agent.py
+│      api_agent.py
+│      sql_agent.py
+│      jira_agent.py
+│
+├── tools/
+│      jira_tool.py
+│      api_tool.py
+│      sql_tool.py
+│
+├── execution/
+│      playwright_runner.py
+│
+├── reports/
+│
+├── workflow/
+│      langgraph_flow.py
+│
+└── api/
+       fastapi_server.py
+```
+
+
+---
+
+## 🏗️ Overall Roadmap
+
+
+
+```
+Phase 1
+Environment Setup
+
+↓
+
+Phase 2
+Project Structure
+
+↓
+
+Phase 3
+Simple Chat Application (LLM)
+
+↓
+
+Phase 4
+Requirement Upload
+
+↓
+
+Phase 5
+PDF/DOCX Processing
+
+↓
+
+Phase 6
+Text Chunking
+
+↓
+
+Phase 7
+Embeddings
+
+↓
+
+Phase 8
+Vector Database
+
+↓
+
+Phase 9
+RAG
+
+↓
+
+Phase 10
+Conversation Memory
+
+↓
+
+Phase 11
+Test Case Generator
+
+↓
+
+Phase 12
+Automation Script Generator
+
+↓
+
+Phase 13
+SQL Agent
+
+↓
+
+Phase 14
+REST API Tool
+
+↓
+
+Phase 15
+Jira Tool
+
+↓
+
+Phase 16
+Playwright Agent
+
+↓
+
+Phase 17
+Bug Analysis Agent
+
+↓
+
+Phase 18
+LangGraph Multi-Agent
+
+↓
+
+Phase 19
+FastAPI
+
+↓
+
+Phase 20
+Docker + Deployment
+```

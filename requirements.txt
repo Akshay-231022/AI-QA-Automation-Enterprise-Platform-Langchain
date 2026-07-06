@@ -1,0 +1,14 @@
+langchain
+langchain-openai
+python-dotenv
+streamlit
+faiss-cpu
+pypdf
+chromadb
+langgraph
+fastapi
+uvicorn
+sqlalchemy
+playwright
+pytest
+jira
